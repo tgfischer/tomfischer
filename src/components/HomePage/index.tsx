@@ -2,6 +2,7 @@ import { FC } from "react";
 import { Row, Col } from "react-bootstrap";
 
 import { Header } from "../Header";
+import { Link } from "../Link";
 
 export const HomePage: FC = () => (
   <Row className="px-3 d-flex align-items-center vh-100" noGutters>
@@ -13,38 +14,24 @@ export const HomePage: FC = () => (
         }
       </p>
       <div>
-        <a
-          href="mailto:tgfischer@gmail.com"
-          className="mr-3"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <Link href="mailto:tgfischer6@gmail.com" className="mr-3">
           Email
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://www.linkedin.com/in/tom-fischer-38179946/"
           className="mr-3"
-          target="_blank"
-          rel="noreferrer"
         >
           Linked In
-        </a>
-        <a
-          href="https://github.com/tgfischer"
-          className="mr-3"
-          target="_blank"
-          rel="noreferrer"
-        >
+        </Link>
+        <Link href="https://github.com/tgfischer" className="mr-3">
           GitHub
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://stackoverflow.com/users/2455765/tfischer"
           className="mr-3"
-          target="_blank"
-          rel="noreferrer"
         >
           Stack Overflow
-        </a>
+        </Link>
       </div>
     </Col>
   </Row>
