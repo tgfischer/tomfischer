@@ -1,0 +1,16 @@
+$bg-color: #121212;
+$body-color: #f0f4f8;
+$anchor-color: #00a8cc;
+
+body .dark {
+  background-color: $bg-color;
+  color: $body-color;
+
+  a {
+    color: $anchor-color;
+
+    &:hover {
+      color: lighten($anchor-color, 15%);
+    }
+  }
+}

@@ -1,10 +1,10 @@
 import clsx from "clsx";
 import { FC } from "react";
 
-import { HeaderVariants, HeaderProps } from "./types";
+import { HeaderProps } from "./types";
 
 export const Header: FC<HeaderProps> = ({
-  variant = HeaderVariants.H1,
+  variant = "h1",
   className,
   children
 }) => <div className={clsx(className, variant)}>{children}</div>;
