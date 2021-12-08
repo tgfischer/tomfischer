@@ -4,6 +4,7 @@ import { FC } from "react";
 
 import "../src/styles/app.scss";
 import "@fontsource/merriweather";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 const App: FC<AppProps> = ({ Component, pageProps }) => (
   <Component {...pageProps} />

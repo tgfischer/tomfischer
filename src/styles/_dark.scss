@@ -1,16 +1,27 @@
-$bg-color: #121212;
+$bg-color: darken($dark, 7%);
 $body-color: #f0f4f8;
-$anchor-color: #00a8cc;
+$anchor-color: lighten($primary, 15%);
 
-body .dark {
+html, body {
   background-color: $bg-color;
   color: $body-color;
 
-  a {
+  a.card {
+    color: $body-color;
+
+    &:hover {
+      color: $body-color;
+      text-decoration: none;
+      background-color: lighten($dark, 3%) !important;
+    }
+  }
+
+  a.tf-link {
     color: $anchor-color;
 
     &:hover {
       color: lighten($anchor-color, 15%);
+      text-decoration: underline;
     }
   }
 }
