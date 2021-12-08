@@ -21,7 +21,8 @@ export const Projects: FC = () => (
         >
           <p>
             A website for a RSVPing to our wedding. Developed with{" "}
-            <strong>NextJS</strong>, <strong>Bootstrap</strong>,{" "}
+            <strong>React</strong>, <strong>NextJS</strong>,{" "}
+            <strong>Typescript</strong>, <strong>Bootstrap</strong>,{" "}
             <strong>Supabase</strong>, and <strong>OpenStreetMap</strong>.
           </p>
           <p>
