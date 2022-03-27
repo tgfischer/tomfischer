@@ -23,6 +23,7 @@ export const skills: Skill[] = [
   { name: "Keycloak" },
   { name: "Supabase" },
   { name: "Bootstrap" },
+  { name: "HTML" },
   { name: "Sass" },
   { name: "JIRA" },
   { name: "Jenkins" },
