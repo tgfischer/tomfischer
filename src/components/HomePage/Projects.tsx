@@ -48,7 +48,8 @@ export const Projects: FC = () => (
             and <strong>AWS CloudFront</strong>.
           </p>
           <p>
-            Microservices managed with <strong>Lerna</strong>.
+            Microservices managed with <strong>Lerna</strong> and{" "}
+            <strong>Serverless Framework</strong>.
           </p>
         </Project>
       </Col>
