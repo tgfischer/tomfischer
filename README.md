@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Tom Fischer
+
+This is my portfolio website built with React, Typescript, and NextJS. Hosted with Vercel.
