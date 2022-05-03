@@ -20,8 +20,11 @@ export const Projects: FC = () => (
           link="https://thefischers.wedding"
         >
           <p>
-            A website for a RSVPing to our wedding. Developed with{" "}
-            <strong>React</strong>, <strong>NextJS</strong>,{" "}
+            A website for managing wedding reservations, table assignments, meal
+            restrictions, and reception songs.
+          </p>
+          <p>
+            Developed with <strong>React</strong>, <strong>NextJS</strong>,{" "}
             <strong>Typescript</strong>, <strong>Bootstrap</strong>,{" "}
             <strong>Supabase</strong>, and <strong>OpenStreetMap</strong>.
           </p>
@@ -58,11 +61,11 @@ export const Projects: FC = () => (
           name="Megan Shea Dressage"
           year={2016}
           src="/meganshea.PNG"
-          link="https://www.megansheadressage.com"
+          link="https://github.com/tgfischer/Megan-Shea"
         >
+          <p>A website for a dressage competitor.</p>{" "}
           <p>
-            A website for a dressage competitor. Developed with{" "}
-            <strong>EJS</strong>, <strong>Semantic UI</strong>,{" "}
+            Developed with <strong>EJS</strong>, <strong>Semantic UI</strong>,{" "}
             <strong>NodeJS/Express</strong>, and <strong>MongoDB</strong>.
           </p>
           <p>
