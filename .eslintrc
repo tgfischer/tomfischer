@@ -21,7 +21,8 @@
     "plugin:react-hooks/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:@next/next/recommended"
   ],
   "rules": {
     "react/prop-types": "off",
@@ -43,5 +44,8 @@
         ]
       }
     ]
+  },
+  "globals": {
+    "__dirname": true
   }
 }

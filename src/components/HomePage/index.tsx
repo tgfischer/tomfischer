@@ -8,7 +8,7 @@ import { Masthead } from "./Masthead";
 import { Projects } from "./Projects";
 
 export const HomePage: FC = () => (
-  <Container className="px-3" fluid>
+  <Container as="main" className="px-3" fluid>
     <Section>
       <Masthead />
     </Section>

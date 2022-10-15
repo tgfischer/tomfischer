@@ -12,9 +12,9 @@ export const Experience: FC = () => (
       <Header>Experience</Header>
       <p>Technologies that I have experience working with.</p>
     </div>
-    <Row className="g-0">
+    <Row as="ul" className="g-0">
       {skills.map(({ name }) => (
-        <Col key={name} className="py-1" md={3} xs={6}>
+        <Col as="li" key={name} className="py-1" md={3} xs={6}>
           <Skill>{name}</Skill>
         </Col>
       ))}

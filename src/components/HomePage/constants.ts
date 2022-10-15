@@ -10,6 +10,8 @@ export const skills: Skill[] = [
   { name: "C#" },
   { name: "ASP.NET" },
   { name: "Elasticsearch" },
+  { name: "Vite" },
+  { name: "Vitest" },
   { name: "Lerna" },
   { name: "Storybook" },
   { name: "Jest" },

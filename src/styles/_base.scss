@@ -1,12 +1,11 @@
-// body {
-//   font-family: $font-family-base;
-//   font-size: $font-size-base;
-// }
-
 a {
   text-decoration: none;
 
   &:hover {
     text-decoration: underline;
   }
+}
+
+li {
+  list-style-type: none;
 }

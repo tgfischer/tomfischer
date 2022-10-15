@@ -1,8 +1,12 @@
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FC } from "react";
+import { ReactNode } from "react";
 
-export const Skill: FC = ({ children }) => (
+type SkillProps = {
+  children: ReactNode;
+};
+
+export const Skill = ({ children }: SkillProps) => (
   <p className="h5 d-flex align-items-center">
     <FontAwesomeIcon className="me-2" icon={faCheck} />
     {children}

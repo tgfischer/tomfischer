@@ -1,9 +1,15 @@
 import clsx from "clsx";
-import { FC } from "react";
+import { PropsWithChildren } from "react";
 
-import { LinkProps } from "./types";
+import { ClassNameComponent } from "../types";
 
-export const Link: FC<LinkProps> = ({ href, className, children }) => (
+export type LinkProps = PropsWithChildren<
+  ClassNameComponent & {
+    href: string;
+  }
+>;
+
+export const Link = ({ href, className, children }: LinkProps): JSX.Element => (
   <a
     href={href}
     className={clsx("tf-link", className)}

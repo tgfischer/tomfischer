@@ -1,10 +1,14 @@
-import clsx from "clsx";
-import { FC } from "react";
+import { PropsWithChildren } from "react";
 
-import { HeaderProps } from "./types";
+export type HeaderProps = PropsWithChildren<{
+  variant?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  className?: string;
+}>;
 
-export const Header: FC<HeaderProps> = ({
-  variant = "h1",
+export const Header = ({
+  variant: Header = "h1",
   className,
   children
-}) => <div className={clsx(className, variant)}>{children}</div>;
+}: HeaderProps): JSX.Element => (
+  <Header className={className}>{children}</Header>
+);

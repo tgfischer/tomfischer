@@ -17,6 +17,7 @@ export const Projects: FC = () => (
           name="The Fischers' Wedding"
           year={2021}
           src="/thefischerswedding.PNG"
+          alt="Screenshot of the Fischers' Wedding website"
           link="https://thefischers.wedding"
         >
           <p>
@@ -38,6 +39,7 @@ export const Projects: FC = () => (
           name="D's Construction"
           year={2020}
           src="/dsconstruction.PNG"
+          alt="Screenshot of D's Construction's website"
           link="https://ds.construction"
         >
           <p>
@@ -61,6 +63,7 @@ export const Projects: FC = () => (
           name="Megan Shea Dressage"
           year={2016}
           src="/meganshea.PNG"
+          alt="Screenshot of Megan Shea's website"
           link="https://github.com/tgfischer/Megan-Shea"
         >
           <p>A website for a dressage competitor.</p>{" "}
