@@ -11,7 +11,7 @@ export const Projects = () => (
       <p>Custom websites that I developed for companies and brands.</p>
     </div>
     <Container className="d-flex flex-column gap-4">
-      <Row>
+      <Row className="row-gap-3">
         <Col>
           <Project
             name="D's Construction"
@@ -57,7 +57,7 @@ export const Projects = () => (
           </Project>
         </Col>
       </Row>
-      <Row>
+      <Row className="row-gap-3">
         <Col>
           <Project
             name="D's Construction"
