@@ -1,8 +1,8 @@
 import { Skill } from "./types";
 
 export const skills: Skill[] = [
-  { name: "Javascript" },
   { name: "Typescript" },
+  { name: "Javascript" },
   { name: "React" },
   { name: "NodeJS" },
   { name: "Express" },
@@ -15,20 +15,22 @@ export const skills: Skill[] = [
   { name: "Lerna" },
   { name: "Storybook" },
   { name: "Jest" },
-  { name: "Kubernetes" },
-  { name: "Python" },
-  { name: "Clojure" },
-  { name: "SQL" },
-  { name: "NoSQL" },
   { name: "AWS" },
   { name: "Azure" },
-  { name: "Keycloak" },
   { name: "Supabase" },
+  { name: "Kubernetes" },
+  { name: "MySQL" },
+  { name: "PostgreSQL" },
+  { name: "Python" },
+  { name: "Clojure" },
+  { name: "Keycloak" },
   { name: "Bootstrap" },
+  { name: "Mantine" },
   { name: "HTML" },
   { name: "Sass" },
   { name: "JIRA" },
   { name: "Jenkins" },
   { name: "Azure DevOps" },
+  { name: "GitHub" },
   { name: "Gerrit" }
 ];

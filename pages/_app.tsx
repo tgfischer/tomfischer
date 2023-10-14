@@ -1,12 +1,11 @@
 import { AppProps } from "next/app";
 import PropTypes from "prop-types";
-import { FC } from "react";
 
 import "../src/styles/app.scss";
 import "@fontsource/source-serif-pro";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
-const App: FC<AppProps> = ({ Component, pageProps }) => (
+const App = ({ Component, pageProps }: AppProps) => (
   <Component {...pageProps} />
 );
 

@@ -1,9 +1,8 @@
 import Head from "next/head";
-import { FC } from "react";
 
 import { HomePage as Home } from "../src/components/HomePage";
 
-const HomePage: FC = () => (
+const HomePage = () => (
   <>
     <Head>
       <title>Tom Fischer</title>

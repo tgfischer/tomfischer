@@ -1,4 +1,3 @@
-import { FC } from "react";
 import { Row, Col } from "react-bootstrap";
 
 import { Header } from "../Header";
@@ -6,7 +5,7 @@ import { Header } from "../Header";
 import { skills } from "./constants";
 import { Skill } from "./Skill";
 
-export const Experience: FC = () => (
+export const Experience = () => (
   <div>
     <div className="text-center">
       <Header>Experience</Header>
