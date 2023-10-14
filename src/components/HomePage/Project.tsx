@@ -25,18 +25,18 @@ export const Project = ({
       <Card.Title>
         <div className="d-flex justify-content-between">
           {name}
-          <small className="text-muted">
+          <small className="text-body-secondary">
             <time dateTime="YYYY">{year}</time>
           </small>
         </div>
         {subheader && (
-          <small className="text-muted fst-italic">{subheader}</small>
+          <small className="text-body-secondary fst-italic">{subheader}</small>
         )}
       </Card.Title>
       {children}
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">{link}</small>
+      <small className="text-body-secondary">{link}</small>
     </Card.Footer>
   </Card>
 );
