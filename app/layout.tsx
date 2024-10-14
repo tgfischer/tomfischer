@@ -8,11 +8,11 @@ import "@/styles/app.css";
 const sourceSerif4 = Source_Serif_4({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-source-serif-4"
+  variable: "--font-source-serif-4",
 });
 
 export const metadata: Metadata = {
-  title: "Tom Fischer"
+  title: "Tom Fischer",
 };
 
 const RootLayout = ({ children }: PropsWithChildren) => (

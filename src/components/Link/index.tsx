@@ -3,9 +3,7 @@ import { PropsWithChildren } from "react";
 import { ClassNameComponent } from "@/components/types";
 
 export type LinkProps = PropsWithChildren<
-  ClassNameComponent & {
-    href: string;
-  }
+  ClassNameComponent & { href: string }
 >;
 
 export const Link = ({ href, children }: LinkProps): JSX.Element => (

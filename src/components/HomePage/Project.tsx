@@ -16,7 +16,7 @@ export const Project = ({
   src,
   alt,
   link,
-  children
+  children,
 }: ProjectProps): JSX.Element => (
   <a
     href={link}

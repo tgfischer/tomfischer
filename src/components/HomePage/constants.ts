@@ -42,5 +42,5 @@ export const skills: Skill[] = [
   { name: "JIRA" },
   { name: "Jenkins" },
   { name: "GitHub" },
-  { name: "Azure DevOps" }
+  { name: "Azure DevOps" },
 ];
