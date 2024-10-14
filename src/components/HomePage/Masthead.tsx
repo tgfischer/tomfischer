@@ -9,7 +9,7 @@ export const Masthead = () => (
     </p>
     <menu className="flex flex-row gap-3 justify-center text-xl">
       <li>
-        <Link href="mailto:tgfischer6@gmail.com">Email</Link>
+        <Link href="mailto:me@fis.mozmail.com">Email</Link>
       </li>
       <li>
         <Link href="https://www.linkedin.com/in/tom-fischer-38179946/">

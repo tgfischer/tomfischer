@@ -8,7 +8,7 @@ export const Projects = () => (
         Custom websites that I developed for companies and brands.
       </p>
     </div>
-    <div className="grid grid-cols-2 gap-10">
+    <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
       <Project
         name="D's Construction"
         subheader="Version 2"

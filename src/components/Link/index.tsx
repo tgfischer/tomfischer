@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import { PropsWithChildren } from "react";
 
 import { ClassNameComponent } from "@/components/types";
@@ -9,10 +8,10 @@ export type LinkProps = PropsWithChildren<
   }
 >;
 
-export const Link = ({ href, className, children }: LinkProps): JSX.Element => (
+export const Link = ({ href, children }: LinkProps): JSX.Element => (
   <a
     href={href}
-    className={clsx("text-blue-500 hover:text-blue-300", className)}
+    className="text-blue-500 hover:text-blue-300 hover:underline"
     target="_blank"
     rel="noreferrer"
   >
