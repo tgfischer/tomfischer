@@ -1,21 +1,17 @@
-import { Container } from "react-bootstrap";
-
-import { Section } from "../Section";
-
 import { Experience } from "./Experience";
 import { Masthead } from "./Masthead";
 import { Projects } from "./Projects";
 
 export const HomePage = () => (
-  <Container as="main" className="px-3" fluid>
-    <Section>
+  <main className="py-16 flex flex-col gap-10 xl:px-64 lg:px-32 px-5">
+    <section>
       <Masthead />
-    </Section>
-    <Section span={8} offset={2}>
+    </section>
+    <section>
       <Experience />
-    </Section>
-    <Section span={8} offset={2}>
+    </section>
+    <section>
       <Projects />
-    </Section>
-  </Container>
+    </section>
+  </main>
 );

@@ -1,14 +1,13 @@
-import { Header } from "../Header";
-import { Link } from "../Link";
+import { Link } from "@/components/Link";
 
 export const Masthead = () => (
-  <div className="d-flex flex-column text-center py-5">
-    <Header>Tom Fischer</Header>
-    <p>
+  <div className="text-center flex flex-col gap-6 container mx-auto">
+    <h1 className="text-5xl">Tom Fischer</h1>
+    <p className="text-xl">
       I am a Senior Software Developer who specializes in developing modern web
       applications.
     </p>
-    <menu className="d-flex flex-row align-self-center gap-3">
+    <menu className="flex flex-row gap-3 justify-center text-xl">
       <li>
         <Link href="mailto:tgfischer6@gmail.com">Email</Link>
       </li>

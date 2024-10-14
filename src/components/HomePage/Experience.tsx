@@ -1,22 +1,20 @@
-import { Row, Col } from "react-bootstrap";
-
-import { Header } from "../Header";
-
 import { skills } from "./constants";
 import { Skill } from "./Skill";
 
 export const Experience = () => (
-  <div>
+  <div className="flex flex-col gap-8">
     <div className="text-center">
-      <Header>Experience</Header>
-      <p>Technologies that I have experience working with.</p>
+      <h2 className="text-3xl">Experience</h2>
+      <p className="text-xl">
+        Technologies that I have experience working with.
+      </p>
     </div>
-    <Row as="ul" className="g-0">
+    <ul className="grid grid-cols-4 gap-4">
       {skills.map(({ name }) => (
-        <Col as="li" key={name} className="py-1" md={3} xs={6}>
+        <li key={name}>
           <Skill>{name}</Skill>
-        </Col>
+        </li>
       ))}
-    </Row>
+    </ul>
   </div>
 );

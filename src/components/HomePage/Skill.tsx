@@ -7,8 +7,8 @@ type SkillProps = {
 };
 
 export const Skill = ({ children }: SkillProps) => (
-  <p className="h5 d-flex align-items-center">
+  <h5 className="flex items-center text-2xl">
     <FontAwesomeIcon className="me-2" icon={faCheck} />
     {children}
-  </p>
+  </h5>
 );

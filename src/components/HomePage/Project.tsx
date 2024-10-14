@@ -1,5 +1,4 @@
 import { PropsWithChildren } from "react";
-import { Card } from "react-bootstrap";
 
 type ProjectProps = PropsWithChildren<{
   name: string;
@@ -19,24 +18,29 @@ export const Project = ({
   link,
   children
 }: ProjectProps): JSX.Element => (
-  <Card as="a" href={link} rel="noopener noreferrer" target="_blank" bg="dark">
-    <Card.Img variant="top" src={src} alt={alt} />
-    <Card.Body className="d-flex flex-column gap-3">
-      <Card.Title>
-        <div className="d-flex justify-content-between">
+  <a
+    href={link}
+    rel="noopener noreferrer"
+    target="_blank"
+    className="dark:bg-zinc-800 hover:scale-105 transition rounded-lg flex flex-col shadow-lg"
+  >
+    <img src={src} alt={alt} className="rounded-t-lg" />
+    <div className="flex flex-col gap-3 h-full">
+      <h3 className="text-xl pt-5 px-5">
+        <div className="flex justify-between">
           {name}
-          <small className="text-body-secondary">
-            <time dateTime="YYYY">{year}</time>
-          </small>
+          <time className="text-zinc-100" dateTime="YYYY">
+            {year}
+          </time>
         </div>
         {subheader && (
-          <small className="text-body-secondary fst-italic">{subheader}</small>
+          <small className="italic text-zinc-400">{subheader}</small>
         )}
-      </Card.Title>
-      {children}
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-body-secondary">{link}</small>
-    </Card.Footer>
-  </Card>
+      </h3>
+      <div className="px-5 flex flex-col gap-3">{children}</div>
+      <small className="border-t border-zinc-700 p-5 self-end flex-col w-full mt-auto text-zinc-400">
+        {link}
+      </small>
+    </div>
+  </a>
 );
