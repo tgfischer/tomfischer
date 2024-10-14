@@ -28,7 +28,8 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
-    "plugin:@next/next/recommended"
+    "plugin:@next/next/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "rules": {
     "react/prop-types": "off",

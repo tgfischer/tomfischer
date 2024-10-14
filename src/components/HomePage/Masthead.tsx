@@ -1,13 +1,13 @@
 import { Link } from "@/components/Link";
 
 export const Masthead = () => (
-  <div className="text-center flex flex-col gap-6 container mx-auto">
+  <div className="container mx-auto flex flex-col gap-6 text-center">
     <h1 className="text-5xl">Tom Fischer</h1>
     <p className="text-xl">
       I am a Senior Software Developer who specializes in developing modern web
       applications.
     </p>
-    <menu className="flex flex-row gap-3 justify-center text-xl">
+    <menu className="flex flex-row justify-center gap-3 text-xl">
       <li>
         <Link href="mailto:me@fis.mozmail.com">Email</Link>
       </li>

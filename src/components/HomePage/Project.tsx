@@ -22,11 +22,11 @@ export const Project = ({
     href={link}
     rel="noopener noreferrer"
     target="_blank"
-    className="dark:bg-zinc-800 hover:scale-105 transition rounded-lg flex flex-col shadow-lg"
+    className="flex flex-col rounded-lg shadow-lg transition hover:scale-105 dark:bg-zinc-800"
   >
     <img src={src} alt={alt} className="rounded-t-lg" />
-    <div className="flex flex-col gap-3 h-full">
-      <h3 className="text-xl pt-5 px-5">
+    <div className="flex h-full flex-col gap-3">
+      <h3 className="px-5 pt-5 text-xl">
         <div className="flex justify-between">
           {name}
           <time className="text-zinc-100" dateTime="YYYY">
@@ -37,8 +37,8 @@ export const Project = ({
           <small className="italic text-zinc-400">{subheader}</small>
         )}
       </h3>
-      <div className="px-5 flex flex-col gap-3">{children}</div>
-      <small className="border-t border-zinc-700 p-5 self-end flex-col w-full mt-auto text-zinc-400">
+      <div className="flex flex-col gap-3 px-5">{children}</div>
+      <small className="mt-auto w-full flex-col self-end border-t border-zinc-700 p-5 text-zinc-400">
         {link}
       </small>
     </div>

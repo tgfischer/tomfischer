@@ -3,7 +3,7 @@ import { Masthead } from "./Masthead";
 import { Projects } from "./Projects";
 
 export const HomePage = () => (
-  <main className="py-16 flex flex-col gap-20 xl:px-64 lg:px-32 px-5">
+  <main className="flex flex-col gap-20 px-5 py-16 lg:px-32 xl:px-64">
     <section>
       <Masthead />
     </section>

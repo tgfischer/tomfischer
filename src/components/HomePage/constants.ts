@@ -1,4 +1,6 @@
-import { Skill } from "./types";
+export type Skill = {
+  name: string;
+};
 
 export const skills: Skill[] = [
   { name: "Typescript" },
