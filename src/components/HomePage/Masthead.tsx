@@ -7,7 +7,7 @@ export const Masthead = () => (
       I am a Senior Software Developer who specializes in developing modern web
       applications.
     </p>
-    <menu className="flex flex-row justify-center gap-3 text-xl">
+    <menu className="flex flex-row flex-wrap justify-center gap-3 text-xl">
       <li>
         <Link href="mailto:me@fis.mozmail.com">Email</Link>
       </li>
