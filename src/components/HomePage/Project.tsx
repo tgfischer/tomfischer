@@ -1,4 +1,4 @@
-import { PropsWithChildren } from "react";
+import { PropsWithChildren, type JSX } from "react";
 
 type ProjectProps = PropsWithChildren<{
   name: string;
