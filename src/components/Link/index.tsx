@@ -9,7 +9,10 @@ export type LinkProps = PropsWithChildren<
 export const Link = ({ href, children }: LinkProps): JSX.Element => (
   <a
     href={href}
-    className="text-nowrap text-blue-500 hover:text-blue-300 hover:underline"
+    className={`
+      text-nowrap text-blue-500
+      hover:text-blue-300 hover:underline
+    `}
     target="_blank"
     rel="noreferrer"
   >

@@ -8,7 +8,29 @@ export const Projects = () => (
         Custom websites that I developed for companies and brands.
       </p>
     </div>
-    <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
+    <div className={`
+      grid grid-cols-1 gap-10
+      md:grid-cols-2
+    `}>
+      <Project
+        name="Test Suites"
+        year={2025}
+        src="/testsuites.png"
+        alt="Screenshot of Test Suites"
+        link="https://testsuites.dev"
+      >
+        <p>A multi-tenant web application for aggregating automated test results.</p>
+        <p>
+          Developed with <strong>Typescript</strong>, <strong>React</strong>,{" "}
+          <strong>NextJS</strong>, <strong>Radix UI</strong>, <strong>Tailwind</strong>,{" "}
+          <strong>Better Auth</strong>, and{" "}
+          <strong>oRPC</strong>.
+        </p>
+        <p>Database managed with <strong>Drizzle</strong>, <strong>Neon</strong>, and <strong>PostgreSQL</strong></p>
+        <p>
+          Hosted with <strong>Vercel</strong>.
+        </p>
+      </Project>
       <Project
         name="D's Construction"
         subheader="Version 2"

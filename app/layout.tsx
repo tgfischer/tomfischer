@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import { Metadata } from "next";
 import { Source_Serif_4 } from "next/font/google";
 import { PropsWithChildren } from "react";
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const RootLayout = ({ children }: PropsWithChildren) => (
-  <html lang="en" className={clsx("dark", sourceSerif4.variable)}>
+  <html lang="en" className={sourceSerif4.className}>
     <head>
       <link rel="icon" href="/favicon.ico" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />

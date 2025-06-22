@@ -9,7 +9,13 @@ export const Experience = () => (
         Technologies that I have experience working with.
       </p>
     </div>
-    <ul className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+    <ul
+      className={`
+        grid grid-cols-2 gap-4
+        md:grid-cols-3
+        lg:grid-cols-4
+      `}
+    >
       {skills.map(({ name }) => (
         <li key={name}>
           <Skill>{name}</Skill>
