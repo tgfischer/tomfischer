@@ -8,25 +8,59 @@ export const Projects = () => (
         Custom websites that I developed for companies and brands.
       </p>
     </div>
-    <div className={`
-      grid grid-cols-1 gap-10
-      md:grid-cols-2
-    `}>
+    <div
+      className={`
+        grid grid-cols-1 gap-10
+        md:grid-cols-2
+      `}
+    >
+      <Project
+        name="D's Construction"
+        subheader="Version 3"
+        year={2025}
+        src="/dsconstruction3.webp"
+        alt="Screenshot of D's Construction's website"
+        link="https://ds.construction"
+      >
+        <p>A website for a local contruction company.</p>
+        <p>
+          Developed with <strong>Typescript</strong>, <strong>React</strong>,{" "}
+          <strong>NextJS</strong>, <strong>Tailwind</strong>,{" "}
+          <strong>oRPC</strong>, <strong>Better Auth</strong>, and{" "}
+          <strong>AWS SES</strong>.
+        </p>
+        <p>
+          Database managed with <strong>Drizzle</strong>,{" "}
+          <strong>NeonDB</strong>, and <strong>PostgreSQL</strong>.
+        </p>
+        <p>
+          Hosted with <strong>AWS Cloudfront</strong>,{" "}
+          <strong>AWS Lambda</strong>, and <strong>AWS S3</strong>.
+        </p>
+        <p>
+          Deployed with <strong>SST</strong>.
+        </p>
+      </Project>
       <Project
         name="Test Suites"
         year={2025}
-        src="/testsuites.png"
+        src="/testsuites.webp"
         alt="Screenshot of Test Suites"
         link="https://testsuites.dev"
       >
-        <p>A multi-tenant web application for aggregating automated test results.</p>
+        <p>
+          A multi-tenant web application for aggregating automated test results.
+        </p>
         <p>
           Developed with <strong>Typescript</strong>, <strong>React</strong>,{" "}
-          <strong>NextJS</strong>, <strong>Radix UI</strong>, <strong>Tailwind</strong>,{" "}
-          <strong>Better Auth</strong>, and{" "}
-          <strong>oRPC</strong>.
+          <strong>NextJS</strong>, <strong>Radix UI</strong>,{" "}
+          <strong>Tailwind</strong>, <strong>Better Auth</strong>, and{" "}
+          <strong>oRPC</strong>
         </p>
-        <p>Database managed with <strong>Drizzle</strong>, <strong>Neon</strong>, and <strong>PostgreSQL</strong></p>
+        <p>
+          Database managed with <strong>Drizzle</strong>,{" "}
+          <strong>NeonDB</strong>, and <strong>PostgreSQL</strong>.
+        </p>
         <p>
           Hosted with <strong>Vercel</strong>.
         </p>
@@ -35,7 +69,7 @@ export const Projects = () => (
         name="D's Construction"
         subheader="Version 2"
         year={2023}
-        src="/dsconstruction2.png"
+        src="/dsconstruction2.webp"
         alt="Screenshot of D's Construction's website"
         link="https://ds.construction"
       >
@@ -53,7 +87,7 @@ export const Projects = () => (
       <Project
         name="The Fischers' Wedding"
         year={2021}
-        src="/thefischerswedding.PNG"
+        src="/thefischerswedding.webp"
         alt="Screenshot of the Fischers' Wedding website"
         link="https://github.com/tgfischer/The-Fischers-Wedding"
       >
@@ -75,7 +109,7 @@ export const Projects = () => (
         name="D's Construction"
         subheader="Version 1"
         year={2020}
-        src="/dsconstruction.PNG"
+        src="/dsconstruction.webp"
         alt="Screenshot of D's Construction's website"
         link="https://github.com/tgfischer/dsconstruction"
       >
@@ -98,7 +132,7 @@ export const Projects = () => (
       <Project
         name="Megan Shea Dressage"
         year={2016}
-        src="/meganshea.PNG"
+        src="/meganshea.webp"
         alt="Screenshot of Megan Shea's website"
         link="https://github.com/tgfischer/Megan-Shea"
       >
