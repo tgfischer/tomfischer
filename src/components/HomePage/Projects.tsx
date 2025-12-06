@@ -71,7 +71,7 @@ export const Projects = () => (
         year={2023}
         src="/dsconstruction2.webp"
         alt="Screenshot of D's Construction's website"
-        link="https://ds.construction"
+        link="https://github.com/tgfischer/dsconstruction-v2"
       >
         <p>A website for a local contruction company.</p>
         <p>
